@@ -8,37 +8,55 @@ ul {
 }
 a {
     text-decoration: none;}
-    .logo { font-family: "Raleway", sans-serif;font-weight: 700;
+    .logo { font-family: "Raleway", 
+        sans-serif;
+        line-height: 1.17;
+        font-weight: 700;
         font-size: 18px;
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color: #4d5ae5;}
     .logo-web {color: #2e2f42;}
-   
+   .nav-link: {font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;}
+
         .nav-link:hover,
         .nav-link:focus {
             color: #404bbf;
         }
-    .contacts { font-style: normal; }
-  
-     .contact-link:hover, 
-     .contact-link:focus {color: #404bbf}  
+ .contacts {
+     font-style: normal;
+ }
+
+ .contact-link {
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #434455;
+ }
+
+ .contact-link:hover,
+ .contact-link:focus {
+     color: #404bbf;
+ }
      .main-page {background: #2e2f42;}     
      .main-title {
         font-size: 56px;
-        
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;}
     .order-button {background: #4d5ae5;
         color: #fff;
-        
         font-size: 16px;
         letter-spacing: 0.04em;
-       
+       font-weight: 500;
         border: none;
-       
+       line-height: 1.5;
         cursor: pointer;
+      
     }
     .order-button:hover,
     .order-button:focus {
@@ -46,14 +64,16 @@ a {
                 }
     .features .features-title{
         font-size: 20px;
-       
+       font-weight: 500;
+       line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;}   
     .features .features-text {
         font-size: 16px;
-        
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;}   
+
   .team {
       background: #f4f4fd;
     
@@ -63,8 +83,9 @@ a {
   .team-title {
       color: #2e2f42;
       font-size: 36px;
-      
-      
+      line-height: 1.11;
+      letter-spacing: 0.02em;
+      text-align: center;
       margin: 0 0 72px;
   }
 .team-item {
@@ -85,10 +106,10 @@ a {
       font-size: 16px;
       margin: 0;
   }
-    .portfolio-title{
+    
+  .portfolio-title{
         font-size: 36px;
-       
-        letter-spacing: 0.02em;
+       letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;}   
 .portfolio-item {
@@ -97,7 +118,7 @@ a {
 }
  .portfolio-name {font-weight: 500;
             font-size: 20px;
-          
+          line-height: 1.2;
             letter-spacing: 0.02em;
             color: #2e2f42;}
 .portfolio-text {font-weight: 400;
@@ -109,8 +130,7 @@ a {
 .footer-web {
     font-weight: 700;
     font-size: 18px;
-   
-    letter-spacing: 0.03em;
+   letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
 }
